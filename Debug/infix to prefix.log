@@ -1,0 +1,5 @@
+﻿  main.c
+C:\Users\Layla H\source\repos\infix to prefix compiler\main.c(23,9): warning C4013: 'init' undefined; assuming extern returning int
+C:\Users\Layla H\source\repos\infix to prefix compiler\main.c(24,10): warning C4013: 'parse' undefined; assuming extern returning int
+C:\Users\Layla H\source\repos\infix to prefix compiler\main.c(28,9): warning C4013: 'exit' undefined; assuming extern returning int
+  infix to prefix.vcxproj -> C:\Users\Layla H\source\repos\infix to prefix\Debug\infix to prefix.exe
