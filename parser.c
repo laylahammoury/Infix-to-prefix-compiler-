@@ -10,7 +10,7 @@ parse() /* parses and translates expression list */
     prog();
     //while (lookahead != DONE) {
     while (lookahead != ']') {
-        expr(); match(';');
+        expr(); emit(';', NONE); match(';');
     }
     emit(lookahead, NONE); match(']'); //printf("%c", ']');
 }

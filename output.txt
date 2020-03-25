@@ -1,11 +1,7 @@
-PROGRAM(INF,POS)[
-122
-5
-+
-8
-9
-*
-num1
-550
-+
-]
+PROGRAM(INF,POS)
+ [
+ 122 5 + 
+ 8 9 * 
+ num1 550 + 
+ ]
+ 

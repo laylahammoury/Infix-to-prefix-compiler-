@@ -1,5 +1,17 @@
-﻿  main.c
-C:\Users\Layla H\source\repos\infix to prefix compiler\main.c(23,9): warning C4013: 'init' undefined; assuming extern returning int
-C:\Users\Layla H\source\repos\infix to prefix compiler\main.c(24,10): warning C4013: 'parse' undefined; assuming extern returning int
-C:\Users\Layla H\source\repos\infix to prefix compiler\main.c(28,9): warning C4013: 'exit' undefined; assuming extern returning int
+﻿  parser.c
+C:\Users\Layla H\source\repos\infix to prefix compiler\parser.c(9,22): warning C4013: 'lexan' undefined; assuming extern returning int
+C:\Users\Layla H\source\repos\infix to prefix compiler\parser.c(10,9): warning C4013: 'prog' undefined; assuming extern returning int
+C:\Users\Layla H\source\repos\infix to prefix compiler\parser.c(13,13): warning C4013: 'expr' undefined; assuming extern returning int
+C:\Users\Layla H\source\repos\infix to prefix compiler\parser.c(13,21): warning C4013: 'emit' undefined; assuming extern returning int
+C:\Users\Layla H\source\repos\infix to prefix compiler\parser.c(13,39): warning C4013: 'match' undefined; assuming extern returning int
+C:\Users\Layla H\source\repos\infix to prefix compiler\parser.c(29,15): warning C4013: 'error' undefined; assuming extern returning int
+C:\Users\Layla H\source\repos\infix to prefix compiler\parser.c(57,9): warning C4013: 'term' undefined; assuming extern returning int
+C:\Users\Layla H\source\repos\infix to prefix compiler\parser.c(65,19): warning C4033: 'expr' must return a value
+C:\Users\Layla H\source\repos\infix to prefix compiler\parser.c(71,11): warning C4013: 'factor' undefined; assuming extern returning int
+C:\Users\Layla H\source\repos\infix to prefix compiler\parser.c(79,19): warning C4033: 'term' must return a value
+C:\Users\Layla H\source\repos\infix to prefix compiler\parser.c(53): warning C4716: 'prog': must return a value
+C:\Users\Layla H\source\repos\infix to prefix compiler\parser.c(81): warning C4716: 'term': must return a value
+C:\Users\Layla H\source\repos\infix to prefix compiler\parser.c(96): warning C4716: 'factor': must return a value
+C:\Users\Layla H\source\repos\infix to prefix compiler\parser.c(104): warning C4716: 'match': must return a value
+C:\Users\Layla H\source\repos\infix to prefix compiler\parser.c(67): warning C4716: 'expr': must return a value
   infix to prefix.vcxproj -> C:\Users\Layla H\source\repos\infix to prefix\Debug\infix to prefix.exe

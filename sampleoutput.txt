@@ -1,0 +1,8 @@
+PROGRAM(INF,POS)
+ [
+ 123 sum 15 * + 
+ 12 3 DIV 
+ number 4 MOD 2 + 
+ 1 5 8 / 7 * + num1 + 
+ ]
+ 

@@ -16,6 +16,7 @@
 #define INF 261
 #define POS 262
 #define PROGRAM 263
+#define EOEX 264
 
 FILE* ifptr;
 FILE* ofptr;

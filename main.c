@@ -4,21 +4,23 @@
 
 int main(int argc, char* argv[])
 {
+    char* input;
+    char* output;
     int i;
     if (argc >= 2)
     {
-        printf("The arguments supplied are:\n");
-        for (i = 1; i < argc; i++)
-        {
-            printf("%s\t", argv[i]);
-        }
+        input = argv[1];
+        output = argv[2];
     }
     else
     {
-        printf("argument list is empty.\n");
+        printf("The default file names are choosen\n");
+        input = "input.txt";
+        output = "output.txt";
     }
-    ofptr = fopen("C:\\Users\\Layla H\\source\\repos\\infix to prefix\\infix to prefix\\output.txt", "w");
-    ifptr = fopen("C:\\Users\\Layla H\\source\\repos\\infix to prefix\\infix to prefix\\input.txt", "r");
+
+    ofptr = fopen(output, "w");
+    ifptr = fopen(input, "r");
 
     init();
     parse();

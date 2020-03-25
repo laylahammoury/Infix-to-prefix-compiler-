@@ -8,15 +8,19 @@ emit(t, tval) /* generates output */
 
     switch(t) {
     case '+': case '-': case '*': case '/': 
-        fprintf(ofptr,"%c\n", t); break;
+        fprintf(ofptr,"%c ", t); break;
     case '[': case ']':
-        fprintf(ofptr,"%c\n", t); break;
-    case '(': case ')': case ',': 
+        fprintf(ofptr,"%c\n ", t); break;
+    case '(': case ',': 
         fprintf(ofptr,"%c", t); break;
+    case ')':
+        fprintf(ofptr,"%c\n ", t); break;
+    case ';':
+        fprintf(ofptr,"\n "); break;
     case DIV:
-        fprintf(ofptr,"DIV\n"); break;
+        fprintf(ofptr,"DIV "); break;
     case MOD:
-        fprintf (ofptr,"MOD\n"); break;
+        fprintf (ofptr,"MOD "); break;
     case PROGRAM:
         fprintf (ofptr,"PROGRAM"); break;
     case INF:
@@ -24,9 +28,9 @@ emit(t, tval) /* generates output */
     case POS:
         fprintf (ofptr,"POS"); break;
     case NUM:
-        fprintf(ofptr,"%d\n", tval); break;
+        fprintf(ofptr,"%d ", tval); break;
     case ID:
-        fprintf(ofptr,"%s\n", symtable[tval].lexptr); break;
+        fprintf(ofptr,"%s ", symtable[tval].lexptr); break;
     default:
         fprintf(ofptr,"token %d, tokenval %*d, tokenval %d\n", t, tval);
     }
