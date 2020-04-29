@@ -16,7 +16,7 @@ emit(t, tval) /* generates output */
     case ')':
         fprintf(ofptr,"%c\n ", t); break;
     case ';':
-        fprintf(ofptr,"\n "); break;
+        fprintf(ofptr,"%c\n " ,t); break;
     case DIV:
         fprintf(ofptr,"DIV "); break;
     case MOD:
